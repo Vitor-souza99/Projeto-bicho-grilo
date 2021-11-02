@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+
+#container{
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+    display: inline-flex;
+}
+
+.logo{
+    width: 19%;
+    height: 14.2vh;
+    position: relative;
+    left: 2%;
+}
+.logo img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 1%;
+}
+
+.input{
+    height: 15vh;
+    width: 23%;
+    position: relative;
+    left: 19%;
+  
+}
+
+.input input{
+    position: relative;
+    top: 34%;
+    left: 12%;
+    border-radius: 10px;
+    border-color: #9a9a9a;
+    height: 4vh;
+    width: 60%;
+}
+
+.input button{
+    position: relative;
+    width: 5%;
+    height: 3.2vh;
+    top: 38%;
+    left: 3%;
+    border: none;
+    background-color: transparent;
+   
+    
+}
+.input button :hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    top:3px;
+    box-shadow:none;
+}
+
+.input button :active{
+    background: #e4e4e4;
+}
+
+
+.input button img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #9a9a9a;
+    
+}
+
+.redes-socias{
+ 
+    height: 14vh;
+    width: 30%;
+    position: relative;
+    left: 24%;
+    display: inline-flex;
+}
+
+.rs{
+    
+    position: relative;
+    width: 18%;
+    height: 6vh;
+    margin: 3%;
+    margin-left: 8%;
+    top: 10%;
+}
+
+
+.rs img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#sub-menu{
+    position: relative;
+    height: 13.5vh;
+    width: 99.5%;
+    border: solid #195018 2px;
+    background-color: #195018;
+}
+
+#sub-menu p{
+    position: relative;
+    top: 3.5vh;
+}
+
+#sub-menu p a{
+    color: #041ad6;
+}
+
+
+.img-hippie img{
+    position: relative;
+    height: 13.5vh;
+    width: 25%;
+    left: 35%;
+    bottom: 6vh;
+}
+
+.img-bandeira img{
+    position: relative;
+    height: 13.4vh;
+    width: 25%;
+    left: 75.5%;
+    bottom: 20.2vh;
+}
+
+#necklace-line{
+    height: 100vh;
+    width: 99%;
+    position: absolute;
+    display: inline-flex;
+    left: 1%;
+}
+
+.arrow-left{
+    position: absolute;
+    height: 100%;
+    width: 5%;
+}
+
+.arrow-left img{
+    position: relative;
+    height: 15%;
+    width: 100%;
+    top: 42%;
+}
+
+.arrow-right{
+    position: absolute;
+    height: 100%;
+    width: 6%;
+    left: 93%;
+}
+
+.arrow-right img{
+    position: relative;
+    height: 15%;
+    width: 100%;
+    top: 42%;
+    
+}
+
+.slider-1{
+    height: 100vh;
+    width: 85%;
+    left: 7%;
+    position: absolute;
+}
+
+.product{
+    height: 40vh;
+    width: 15%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+    margin: 22px;
+}
+
+.product:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(7, 87, 37, 0.596);
+}
+
+.product span img{
+    position: relative;
+    height: 30vh;
+    width: 70%;
+    left: 15%;
+}
+
+.info{
+    
+    text-align: center;
+    color: #145519;
+    font-weight: bold;
+    display: block;
+} 
+
+.price{
+    position: relative;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    top: 3%;
+}
+
+.juros{
+    position: relative;
+    display: block;
+    font-size: small;
+    color: #818181;
+    text-align: center;
+    font-weight: bold;
+    top: 2%;
+}
+
+.slick-slide { /* para dimensões no slide*/
+    width: 346px;
+    margin: 10px;
+}
+
+#background-black{
+    position:absolute;
+    height: 22vh;
+    width: 100%;
+    background-color: black;
+    display: inline-flex;
+}
+
+.cadastro{
+    position: relative;
+    height: 100%;
+    width: 35%;
+   
+}
+
+.cadastro p{
+    color: white;
+    position: absolute;
+    left: 5%;
+    top:26%;
+    font-size: 25px;
+}
+
+.cadastro-bottons{
+    position: absolute;
+    height: 100%;
+    width: 65%;
+    left: 35%;
+}
+
+.input-nome{
+    position: absolute;
+    top: 35%;
+    left: 2%;
+    height: 4vh;
+    width: 25%;
+}
+
+.input-email{
+    position: absolute;
+    top: 35%;
+    left: 32%;
+    height: 4vh;
+    width: 25%;
+}
+
+
+.btn-cadastro{
+    position: absolute;
+    height: 6vh;
+    width: 20%;
+    left: 65%;
+    top: 33%;
+    background-color: black;
+    font-weight: bolder;
+    border-color: white;
+}
+
+
+
+#about{
+    position: absolute;
+    height: 46vh;
+    width: 100%;
+    background-color: #e7e7e7;
+}
+
+.info{
+    position: relative;
+    text-align: center;
+    color: black;
+    top: 3%;
+}
+
+.list1{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    list-style: none;
+}
+
+.list1 a{
+    text-decoration: none;
+    color: #818181;
+}
+
+.list1 li{
+    margin: 25px;
+}
+
+.list2{
+    position: absolute;
+    top: 18%;
+    left: 77%;
+    list-style: none;
+}
+
+.list2 a{
+    text-decoration: none;
+    color: #818181;
+}
+
+.list2 li{
+    margin: 25px;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 22vh;
+    background-color: #5de490;
+}
+
+footer img{
+    position: absolute;
+    top: -8%;
+    left: -2%;
+}
+
+.copyright{
+    position: absolute;
+    top: 84%;
+    left: 1%;
+}
