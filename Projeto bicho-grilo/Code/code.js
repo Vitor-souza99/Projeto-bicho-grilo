@@ -5,7 +5,7 @@ $(function(){
         slidesToScroll: 2,
         prevArrow: (".arrow-left"),
         nextArrow: (".arrow-right"),
-        rows: 2, //finalmente esse comando da porra das linhas ahhhhhh
+        rows: 2, 
         autoplay: true,
         autoplaySpeed: 5000,
         speed: 1800,
